@@ -1,0 +1,473 @@
+
+/* navigasi */
+nav {
+    background-color: #648cff;
+}
+.logo {
+    font-family: 'ubuntu',sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 80px !important;
+}
+.logo:hover {
+    color: white;
+}
+.menu {
+    margin-right: 200px !important;
+}
+.menu li {
+    padding: 0px 20px;
+} 
+.menu li a:hover {
+    background-color: transparent;
+}
+.menu li a {
+    font-family: 'ubuntu',sans-serif;
+    color: white;
+    font-weight: 10;
+}
+
+/* akhir navigaasi */
+/* main page */
+.jumbotron {
+    background-color: transparent;
+}
+.main-page {
+    min-height: 700px;
+    background-image: url(main-page.png);
+    background-size: cover;
+}
+.main-page h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+    text-align: center;
+}
+.main-page p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+.main-page .btn {
+    margin-top : 20px;
+    padding: 8px 30px;
+    margin-left: 40px;
+}
+.main-page button {
+    border-radius: 0%;
+}
+.main-page a {
+    text-decoration: none;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main-page .btn1 {
+    outline-color: #fc6a42;
+    background-color: hsl(13, 97%, 62%);
+}
+.main-page .btn2 {
+    background-color: #4466c9;
+    margin-left: 10px;
+}
+.sunny-circle p ,.London-circle p , .nine-circle p {
+    color: transparent;
+}
+/* akhir main page */
+/* Features */
+.features {
+    margin-top: 80px;
+    font-family: 'ubuntu',sans-serif;
+    min-height: 600px;
+}
+.features h3 {
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: #648cff;
+    text-align: center;
+}
+.features p {
+    font-family: 'ubuntu',sans-serif;
+    text-align: center;
+    font-size: 15px;
+    color: #999999;
+}
+.features-list {
+    margin-top: 15%;
+}
+.usability h4 {
+    font-family: 'ubuntu',sans-serif;
+    font-weight: bold;
+    margin-top: -60px;
+    margin-left: 100px;
+    color: #353854;
+}
+.usability p {
+    text-align: left;
+    margin-left: 100px;
+    color: #999999;
+}
+.parallax {
+    margin-top: 40px;
+}
+.features-list .parallax h4{
+    margin-top : -60px;
+    margin-left: 100px;
+    color: #353854;
+    font-weight: bold;
+}
+.features-list .parallax p {
+    text-align: left;
+    margin-left: 100px;
+}
+.color {
+    margin-top: 40px;
+}
+.features-list .color h4{
+    margin-top : -60px;
+    margin-left: 100px;
+    color: #353854;
+    font-weight: bold;
+}
+.features-list .color p {
+    text-align: left;
+    margin-left: 100px;
+}
+/* akhir Features */
+/* Widgets */
+.widget .widget-judul h3 {
+    text-align: center;
+    font-family: 'ubuntu',sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: #648cff;
+}
+.widget-judul p {
+    text-align: center;
+    font-family: 'ubuntu',sans-serif;
+    color: #999999;
+}
+.image-center {
+    width: 320px;
+}
+.gambar-widget {
+    margin-top :80px;
+}
+/* akhir Widgets */
+
+/* Screenshots */
+.screenshots {
+    font-family: 'ubuntu',sans-serif;
+    margin-top: 150px;
+    min-height: 2500px;
+}
+.screenshots .title-screenshots {
+    text-align: center;
+}
+.screenshots .title-screenshots h3 {
+    font-size: 37px;
+    color: #648cff;
+    font-weight: bold;
+}
+.screenshots .title-screenshots p {
+    color: #999999;
+    font-size: 15px;
+}
+.content-screenshots {
+    margin-top: 150px;
+}
+.pic-screenshot .pic2-screenshot img {
+    width: 85%;
+    height: 85%;
+    margin-left: 30px;
+}
+.content-screenshots img {
+    width: 40%;
+    height :40%;
+    margin-left: 30%;
+}
+.content-screenshots h3 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    color: #4466c9;
+}
+.content-screenshots p {
+    color: #999999;
+    font-size: 15px;
+}
+.header-screenshot img {
+    width: 50%;
+    height: 50%;
+    margin-top: -10px;
+    margin-left: 30%;
+}
+.sunny {
+    margin-top: 80px;
+}
+.sunny .icon img{
+    margin-top: 10px;
+}
+.rainy {
+    margin-top: 80px ;
+}
+.rainy .icon img {
+    width: 40%;
+    height: 40%;
+    margin-top: 10px;
+}
+/* akhir screenshots */
+/* reviews */
+.ulasan {
+    margin-top:40px;
+    font-family: 'ubuntu',sans-serif;
+}
+.title-ulasan {
+    text-align: center;
+}
+.title-ulasan h3{
+    font-size: 28px;
+    font-weight: bold;
+    color: #648cff;
+}
+.title-ulasan p {
+    font-size: 15px;
+    color: #999999;
+}
+.isi-ulasan {
+    margin-top: 50px;
+}
+.isi-ulasan h2 {
+    font-size: 100px;
+    margin-bottom: -60px;
+    color: #648cff;
+}
+.isi-ulasan .petik2 {
+    margin-top: -30px;
+    text-align: right;
+}
+.isi-ulasan p {
+    color: #353854;
+}
+.isi-ulasan .isi{
+    font-size: 15px;
+}
+.isi-ulasan .nama-orang {
+    font-size: 15px;
+}
+/* akhir reviews */
+
+/* download */
+    .download-page {
+        font-family:'ubuntu',sans-serif;
+        background-image:url(Untitled-1.png);
+        min-height: 270px;
+        margin-top: 150px;
+    }
+    .title-download {
+        margin-top: 60px;
+    }
+    .title-download h3 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .title-download p {
+        margin-top: 20px;
+        color: white;
+    }
+    .title-download img {
+        width: 40%;
+        margin-top: 20px;
+    }
+    .title-download .goplay {
+        width: 38%;
+        margin-left: 10px;
+    }
+/* akhir download */
+/* footer */
+    .footer {
+        background-color: #353854
+    }
+    .footer h4 .Hi{
+        color: #fc6a42;
+        font-weight: bold;
+    }
+    .footer h4 {
+        color: #648cff;
+        font-weight: bold;
+    }
+    .footer .col-md-5 p {
+    color: white;
+    font-size: 10px;
+    }
+/* akhir footer */
+
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+
+@media (min-width: 1200px) {
+    /* nav */
+    nav {
+        max-width: 1366px;
+    }
+    /* akhir-nav */
+    /* main screen */
+
+    .main-page {
+        background-image: url(main-page.png);
+        min-width: 1366px;
+    }
+    .main-page h2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 55px;
+        font-weight: bold;
+        color: white;
+        margin-top: 150px;
+        text-align: left;
+    }
+    .main-page .btn {
+        margin-top : 20px;
+        padding: 8px 30px;
+    }
+    .main-page .sunny-circle {
+        margin-left: 0px;
+    }
+    .main-page .sunny-circle p{
+        font-weight: bold;
+        font-family: 'ubuntu',sans-serif;
+        margin-top : -45px;
+        margin-left: 9px;
+        color: white;
+    }
+    .main-page .sunny-circle .circle1 {
+        width: 70px;
+        height: 70px;
+        border-radius: 100%;
+        background-color:#fc6a42;
+        margin-top :310px;
+    }
+    .London-circle {
+        margin-left: 20px;
+    }
+    .main-page .London-circle p {
+        font-size: 13px;
+        font-family: 'ubuntu',sans-serif;
+        font-weight: bold;
+        margin-top: -44px;
+        margin-left: 327px;
+        color: white;
+    }
+    .main-page .London-circle .circle2 {
+        width: 70px;
+        height: 70px;
+        background-color:#4466c9;
+        border-radius: 100%;
+        margin-top: -85px;
+        margin-left: 320px;
+    }
+    .main-page .nine-circle {
+        margin-top: -220px;
+        margin-left: 320px;
+    }
+    .main-page .nine-circle p{
+        font-size: 18px;
+        font-family: 'ubuntu',sans-serif;
+        font-weight: bold;
+        margin-top: -32px;
+        margin-left: 14px;
+        color: #4466c9;
+    }
+    .main-page .nine-circle .circle3 {
+        width: 40px;
+        height: 40px;
+        background-color: white;
+        border-radius: 100%;
+        margin-top :50px;
+    }
+    /* akhir main page */
+    /* features */
+    .parallax,.color {
+        margin-top: 0px;
+    }
+    /* akhir features */
+
+    /* screenshots */
+    .screenshots .col-md-5 .icon img {
+        width: 30%;
+        height: 30%;
+    }
+    .icon img {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+    .content-screenshots h3 {
+        font-size: 32px;
+    }
+    .content-screenshots p {
+        font-size: 18px;
+    }
+    .header-screenshot h3,.header-screenshot p{
+        text-align: left;
+    }
+    .sunny {
+        margin-top: 100px;
+    }
+    .sunny .icon img {
+        margin-top :60px;
+        margin-left: -40px;
+    }
+    .sunny2 {
+        margin-left: -400px;
+    }
+    .sunny .pic2-screenshot img {
+        margin-left: 700px;
+    }
+    .rainy .icon img {
+        width: 10%;
+        height: 10%;
+        margin-top: 80px;
+    }
+    .header-screenshot img {
+        width: 30%;
+        height: 30%;
+        margin-left: 0px;
+    }
+    /* akhir screenshots */
+    /* reviews */
+    .ulasan {
+        margin-top: -300px;
+    }
+    /* akhir reviews */
+    /* download-page */
+        .download-page {
+            background-size: cover;
+            min-width: 1366px;
+        }
+        .download-page .title-download h3 {
+            font-size: 24px;
+        }
+    /* akhir download-page */
+    /* footer  */
+        .footer {
+            min-width: 1366px;
+        }
+        .footer p {
+            margin-top: 14px;
+            text-align: right;
+        }
+    /* akhir footer */
+}
